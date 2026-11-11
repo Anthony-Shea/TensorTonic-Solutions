@@ -5,4 +5,4 @@ def matrix_transpose(A: list) -> np.ndarray:
     Returns the transposed matrix as a NumPy array.
     """
     # Write code here
-    return np.transpose(A)
+    return np.array(A).T
